@@ -10,7 +10,7 @@ public class LaunchedBrowser {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		driver =new ChromeDriver();
+		//driver =new ChromeDriver();
 		driver=new EdgeDriver();
 		
 		driver.get("http://www.google.com");
